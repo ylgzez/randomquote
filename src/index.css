@@ -1,0 +1,66 @@
+/*
+  Global style
+*/
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  line-height: 1.1;
+}
+
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#quote-box {
+  width: 28rem;
+  border-radius: 1%;
+}
+
+#text,
+#author,
+.tweet {
+  width: 80%;
+  margin: 0 auto;
+}
+
+#text {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 1.5rem;
+}
+
+#author {
+  font-size: 0.875rem;
+  text-align: right;
+  margin-top: 1.5rem;
+}
+
+.tweet {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+
+.social-icons a {
+  font-size: 2rem;
+}
+
+#new-quote {
+  display: inline-block;
+  align-self: flex-start;
+  height: 2rem;
+  border-color: transparent;
+  padding: 0 0.75rem;
+  border-radius: 5%;
+  font-size: 0.75rem;
+}
